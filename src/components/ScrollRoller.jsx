@@ -1,0 +1,2 @@
+import React,{forwardRef} from 'react';
+const ScrollRoller=forwardRef(function ScrollRoller({position},ref){return <div ref={ref} className={'rs2-roller rs2-'+position} aria-hidden="true"><div className="rs2-finial rs2-finial-left"><span className="rs2-spire"/><span className="rs2-orb"/><span className="rs2-collar"/></div><div className="rs2-roller-body"><div className="rs2-cylinder-texture"/></div><div className="rs2-finial rs2-finial-right"><span className="rs2-spire"/><span className="rs2-orb"/><span className="rs2-collar"/></div></div>});export default ScrollRoller;
